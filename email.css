@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+  
+   background-image: url(./emailbackground.jpg);
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+
+}
+.email-container{
+    background-color: white;
+  width: 50%;
+  text-align: center;
+  padding: 30px;
+  height: auto;
+  border-radius: 20px;
+  
+  
+}
+form input{
+    background-color: rgb(232, 232, 232);
+  outline: none;
+   
+}
+form input::placeholder{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.btn{
+    color: white;
+    background-color: darkorange;
+    font-size: 20px;
+    font-weight: bold;
+}
+.btn:hover{
+    background-color: rgb(44, 44, 146);
+    color: white;
+}
+
